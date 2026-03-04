@@ -1,0 +1,34 @@
+
+> smartod@1.0.0 build
+> craco build
+
+(node:10211) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Creating an optimized production build...
+
+warn - You have enabled the JIT engine which is currently in preview.
+warn - Preview features are not covered by semver, may introduce breaking changes, and can change at any time.
+Compiled successfully.
+
+File sizes after gzip:
+
+  236.8 KB  build/static/js/3.0ab2c900.chunk.js
+  41.66 KB  build/static/js/2.53f27628.chunk.js
+  14.08 KB  build/static/js/main.0bbf5fa5.chunk.js
+  8.5 KB    build/static/js/4.1ea5cfab.chunk.js
+  6.29 KB   build/static/css/main.6732b8fa.chunk.css
+  1.17 KB   build/static/js/runtime-main.7d587150.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+

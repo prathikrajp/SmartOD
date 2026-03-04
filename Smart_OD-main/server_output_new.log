@@ -1,0 +1,42 @@
+
+> smartod@1.0.0 start
+> NODE_OPTIONS=--openssl-legacy-provider craco start
+
+(node:4368) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://10.10.39.114/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/sabareesh/Desktop/smartod/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+
+warn - You have enabled the JIT engine which is currently in preview.
+warn - Preview features are not covered by semver, may introduce breaking changes, and can change at any time.
+Compiled successfully!
+
+You can now view smartod in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://10.10.39.114:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Compiling...
+Failed to compile.
+
+src/AdminDashboard.js
+Syntax error: Expected corresponding JSX closing tag for <tr>. (409:37)
+
+  407 |                                             </div>
+  408 |                                         </td>
+> 409 |                                     </span>
+      |                                     ^
+  410 |                                 )}
+  411 |                             </td>
+  412 |                             <td className="px-8 py-6 whitespace-nowrap">
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
